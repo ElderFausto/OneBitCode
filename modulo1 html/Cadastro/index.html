@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <h1>Cadastro</h1>
+  <form>
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password"> - Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+    </div>
+    
+    <div>
+      <label for="nascimento">Data de nascimento</label>
+      <input type="date" id="nascimento" name="nascimento">
+
+      <label for="foto"> - Foto</label>
+      <input type="file" id="foto"><br><br>
+    </div>
+
+    <div>
+      <label for="nacionalidade">Nacionalidade</label>
+      <select name="nacionalidade" id="nacionalidade">
+        <option value="Brazil">Brasileiro</option>
+        <option value="Russ">Russo</option>
+        <option value="Mexico">Mexicano</option>
+        <option value="Polonia">Polones</option>
+      </select> -
+
+      Genero:
+      <label for="feminino">F</label>
+      <input type="radio" name="genero" id="feminino" value="feminino">
+      <label for="masculino">M</label>
+      <input type="radio" name="genero" id="masculino" value="masculino">
+    </div><br>
+  
+    <div>
+      Suas principais qualidades: <br>
+      <input type="checkbox" name="inteligencia" id="inteligencia">
+      <label for="inteligencia">Inteligencia |</label>
+      <input type="checkbox" name="resiliencia" id="resiliencia">
+      <label for="resiliencia">Resiliencia |</label>
+      <input type="checkbox" name="fisico" id="fisico">
+      <label for="fisico">Preparo fisico |</label>
+      <input type="checkbox" name="educacao" id="educacao">
+      <label for="educacao">Educação</label>
+    </div><br>
+
+    <div>
+      <textarea name="descricao" id="descricao" 
+      cols="30" rows="10" 
+      placeholder="Porque você gostaria de se cadastrar ?"></textarea>
+    </div><br>
+
+    <div>
+      <input type="submit" value="Criar"/>
+    </div>  
+    
+  </form>
+</body>
+
+</html>

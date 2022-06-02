@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box
+}
+
+body{
+  background-color: #85cee4;
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  font-family: 'Fira Code', monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px bold;
+}
+
+p{
+  display: inline;
+  margin: auto 0;
+  font-family: 'Fira Code', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+ul{
+  display: inline;
+  margin: auto 0;
+}
+
+li{
+  list-style: none;
+  margin: 10px auto 10px auto;
+  padding-top: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 5px;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 1rem rgb(85, 224, 178);
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px ;
+}
