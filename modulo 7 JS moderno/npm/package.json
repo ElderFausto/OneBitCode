@@ -1,0 +1,27 @@
+{
+  "name": "npm_class",
+  "version": "1.0.0",
+  "description": "Aula npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElderFausto/FullStack-OneBitCode.git"
+  },
+  "keywords": [
+    "NPM",
+    "class",
+    "study"
+  ],
+  "author": "Elder Fausto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElderFausto/FullStack-OneBitCode/issues"
+  },
+  "homepage": "https://github.com/ElderFausto/FullStack-OneBitCode#readme",
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
