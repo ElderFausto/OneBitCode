@@ -1,5 +1,5 @@
-### FullStack-OneBitCode
+![image](https://user-images.githubusercontent.com/85243693/215638715-0a25c542-4132-42f9-9a34-68319a23a5bf.png)
 
-Curso prático focado em formar Desenvolvedores FullStack para o mercado de trabalho com enfase em Tecnologias como: HTML, CSS, JavaScript, React, NodeJS, TypeScript, SQL, MongoDB e +
+## FullStack-OneBitCode
 
-![image](https://user-images.githubusercontent.com/85243693/180864925-41bab30e-8440-47fd-b509-0f9915897947.png)
+A practical course focused on training Full Stack Developers for the job market with emphasis on technologies such as: HTML, CSS, JavaScript, React, NodeJS, TypeScript, SQL, MongoDB and more.
